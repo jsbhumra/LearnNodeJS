@@ -1,4 +1,4 @@
-// require('dotenv').config()
+require('dotenv').config()
 
 const express = require('express');
 const expressLayouts = require('express-ejs-layouts');
@@ -28,4 +28,4 @@ app.use('/', indexRouter);
 app.use('/authors', authorRouter);
 
 
-app.listen(process.env.PORT || 3000);
+app.listen(process.env.PORT || 4000);
